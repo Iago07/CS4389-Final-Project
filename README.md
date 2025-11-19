@@ -1,8 +1,8 @@
-##CS 4389 – Final Project
+CS 4389 – Final Project
 
 This project implements a simplified mobile application penetration testing framework and a machine learning behavior detection tool. It enables security testers and students to scan Android APK files and classify whether the interaction resembles normal usage or penetration-testing-like behavior.
-
-##Framework Overview 
+----------------------------------------------------
+Framework Overview 
 The framework is implemented in starter_scan.py.
 It:
 
@@ -22,7 +22,9 @@ Security placeholder categories	M1, M5, M9 mapped alerts
 
 This design makes the framework extensible for future static/dynamic analysis tools.
 
-##Machine Learning Component
+--------------------------------------------------------
+
+Machine Learning Component
 Implemented in ml_pipeline.py.
 
 It extracts numerical features from report.json:
@@ -59,7 +61,7 @@ model.joblib
 
 ---------------------------------------------------
 
-## How to run the project
+How to run the project
 Create Virtual Environment 
 python -m venv venv
 source venv/bin/activate         # Mac/Linux
@@ -98,3 +100,4 @@ OWASP Mobile Security Testing Guide
 Android Developer Documentation
 
 Scikit-Learn Documentation
+
