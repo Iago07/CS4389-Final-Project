@@ -1,0 +1,35 @@
+{
+  "target": "ApiDemos-debug.apk",
+  "findings": [
+    {
+      "check": "File extension",
+      "category": "framework",
+      "result": "APK detected",
+      "severity": "info"
+    },
+    {
+      "check": "Oversized file",
+      "category": "framework",
+      "result": "Size looks reasonable",
+      "severity": "info"
+    },
+    {
+      "check": "M1 Improper Credential Usage",
+      "category": "M1",
+      "result": "Not implemented - manual check recommended",
+      "severity": "info"
+    },
+    {
+      "check": "M5 Insecure Communication",
+      "category": "M5",
+      "result": "Not implemented - use intercepting proxy for HTTP(S)",
+      "severity": "info"
+    },
+    {
+      "check": "M9 Insecure Data Storage",
+      "category": "M9",
+      "result": "Not implemented - review storage and encryption",
+      "severity": "info"
+    }
+  ]
+}
